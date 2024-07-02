@@ -1,0 +1,187 @@
+
+*{/*resetear codigo-unificar espacios en los navegadores-todos los archivos sin bordes */
+    padding: 0;
+    margin: 0;
+}
+
+/*header*/
+
+
+header img{
+    text-align: center;
+    width: 140px;
+    border: #00a9e0 3px solid;
+    border-radius: 30px;
+    margin: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+ 
+}
+.subt{
+    text-align: center;
+    margin-top: 20px;
+    
+}
+ul{
+    list-style-type: none;
+    text-align: right;
+    top: 20px auto;}
+li{
+    display: inline;
+
+}
+a{
+    color: rgb(44, 43, 43);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+
+/*body*/
+body{
+    background-color: #00a9e0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    background-color: #00a9e0;
+}
+.subt__1{
+    border-radius: 100px;
+    background-color: beige;  
+}
+.subt__2{
+    border-radius: 100px;
+    background-color: beige;
+    margin: 20px;  
+}
+#foto1{
+    width: 100%;
+    height: 70%;
+    display: block;
+    position: relative;
+
+}
+.texto-presentacion {
+    text-align: center;
+    
+}
+.img-home{
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+   justify-content: space-evenly;
+   gap: 3em;
+
+   
+    
+}
+.overlay{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 365px;
+    padding: 0%;
+    margin: 0%;
+    background-image: url(../img/fondo-1.avif);
+    
+}
+.nosotrostext{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+h1, h2, h4{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.formulario{
+    width: 190px;
+    text-align: center;
+    margin: 10px auto;
+    font-weight: bold;
+
+}
+
+/*   merch  con grid */
+.container-merch{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+
+        
+
+
+}
+.merch{
+    
+    margin: 20px;
+}
+
+/*    multimedia con bootstrap*/
+   #galeria .col-lg-4{
+    padding: 25px;
+    margin: 0;
+   }
+   #galeria img{
+        width: 100%;
+        height: 250px;
+    }
+    #galeria img:hover{
+        border: 5px solid #00a9e0;
+    }
+
+/*footer*/
+
+footer{
+    background-color: beige;
+    margin-top: auto;
+    bottom: 0;
+    width: 100%;
+    
+
+    
+}
+
+.contact{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  
+
+}
+@font-face {
+    font-family: Overpass-Black;
+    src: url(../font/Overpass/static/Overpass-Black.ttf);
+}
+@media screen and (max-width: 480px )
+
+{header{
+    text-align: center;
+    background-image: url(../img/more-leaves.png);
+    width: 100%;
+    
+}
+
+}
+
+
+@media screen and ( max-width: 1920px )
+{header{
+    text-align: center;
+    background-image: url(../img/more-leaves.png);
+    width: 100%;
+}}
+
+
+
