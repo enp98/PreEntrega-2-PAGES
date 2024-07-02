@@ -238,13 +238,28 @@ footer{
 }
 @media screen and (max-width: 480px )
 
-{header{
+{ header{
     text-align: center;
     background-image: url(../img/more-leaves.png);
-    width: 100%;
+    width: 100vh;
     
 }
+.form-c{
+        
+    padding: 20px 20px ;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+    width: 190px;
 
+}
+.main-form{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+}
 }
 
 
