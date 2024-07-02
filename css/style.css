@@ -66,8 +66,8 @@ main{
     margin: 20px;  
 }
 #foto1{
-    width: 100%;
-    height: 70%;
+    width: 100% ;
+    height: 400px;
     display: block;
     position: relative;
 
@@ -96,11 +96,15 @@ main{
     padding: 0%;
     margin: 0%;
     background-image: url(../img/fondo-1.avif);
+    gap: 2em;
     
 }
 .nosotrostext{
     text-align: center;
     font-size: 1.5rem;
+    background-color: #b5cab6;
+    border-radius: 20px;
+    padding: 20px;
 }
 
 h1, h2, h4{
